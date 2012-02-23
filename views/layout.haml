@@ -2,7 +2,13 @@
 %html
   %head
     %title= @title
-    %script{:src => "http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"}
+    
+    %meta{:charset => "utf-8"}
+    
+    %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"}
+    %script{:src => "javascripts/jquery-ui-1.8.17.custom.min.js"}
     %script{:src => "javascripts/application.js"}
+    
+    %link{:type => "text/css", :rel => "stylesheet", :media => "screen", :href => "stylesheets/jquery-ui-1.8.17.custom.css"}
     %link{:type => "text/css", :rel => "stylesheet", :media => "screen", :href => "stylesheets/application.css"}
   %body= yield
