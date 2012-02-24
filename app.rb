@@ -8,5 +8,5 @@ get '/' do
 end
 
 get '/hello' do
-  "Hello!"
+  "I love you, JBM!"
 end
