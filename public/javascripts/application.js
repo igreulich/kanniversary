@@ -35,7 +35,7 @@ $(function(){
     
     var line1 = "You have been together for " + kanniv + " Kardashians.\n\n";
     var line2 = "Your " + (kanniv + 1) + " Kardashian anniversary is on " + kanniv_date_pretty +  ".\n\n";
-    var line3 = "You have " + days_until_kanniv + " days until your " + (kanniv + 1) + " Kardashian anniversary.";
+    var line3 = "You have " + days_until_kanniv + " days.";
     
     alert(line1 + line2 + line3);
   });
