@@ -34,9 +34,8 @@ $(function(){
     var kanniv_date_pretty = day(next_kanniv_day) + ', ' + month(next_kanniv_month) + ' ' + next_kanniv_date;
     
     var line1 = "You have been together for " + kanniv + " Kardashians.\n\n";
-    var line2 = "Your " + (kanniv + 1) + " Kardashian anniversary is on " + kanniv_date_pretty +  ".\n\n";
-    var line3 = "You have " + days_until_kanniv + " days.";
+    var line2 = "Your " + (kanniv + 1) + " Kardashian anniversary is in " + days_until_kanniv + " days, on " + kanniv_date_pretty +  ".\n\n";
     
-    alert(line1 + line2 + line3);
+    alert(line1 + line2);
   });
 });
