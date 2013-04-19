@@ -7,4 +7,4 @@ We have decided that, in order to memorialize the happy couple and their commitm
 Brought to you by:
 ---
 Ian Greulich  
-[greulich.me](www.greulich.me)
+[greulich.me](http://www.greulich.me)
