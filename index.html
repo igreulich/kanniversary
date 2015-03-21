@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Happy Kardashian!</title>
+    <link href="./bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker3.min.css" rel="stylesheet">
+    <link href="./styles/style.css" rel="stylesheet">
+  </head>
+  <body class="game">
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="logo-white">
+              <img src="images/logo-white.png">
+              <h3>KANNIVERSARY</h3>
+            </div>
+          </div>
+          <div class="col-md-6 nav-wrapper">
+            <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="players">
+      <div class="container">
+        <p>On August 20th, 2011 Kim Kardashian and Kris Humphries were married. 72 short days later, they filed for divorce, ending the fairytale romance.</p>
+        <p>We have decided that, in order to memorialize the happy couple and their commitment to one another, we would celebrate the number of Kardashian marriages our relationship held. Or simply put, we would celebrate Kardashians, not years.</p>
+        <p>Simply put you anniversary date in the text box, and click 'Calculate' and we will tell you how many Kardashians you have been together, and when your next one is!</p>
+        <input type="text" id="datepicker" class="form-control" placeholder="mm/dd/yyyy">
+        <button type="submit" id="calculate" class="btn btn-link pull-right">Calculate</button>
+      </div>
+    </section>
+    <script type="text/javascript" src="./bower_components/sugar/release/sugar.min.js"></script>
+    <script type="text/javascript" src="./bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+    <script type="text/javascript" src="./scripts/application.js"></script>
+  </body>
+</html>
